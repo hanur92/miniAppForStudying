@@ -4,6 +4,7 @@ function Decrement() {
 
   return (
     <div>
+      {number}
       <button onClick={() => count(number - 1)}>-</button>
     </div>
   );

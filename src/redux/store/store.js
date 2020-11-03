@@ -3,6 +3,7 @@ import { createStore } from "redux";
 import { Provider } from "react-redux";
 import App from "../../App";
 import ReactDOM from "react-dom";
+import React, { useState } from "react";
 
 const store = createStore(reducer);
 //createStore를 통해서 스토어 생성 후 리듀서 전달
