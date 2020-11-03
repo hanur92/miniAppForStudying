@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Decrement from "./ component/Decrement";
-import Increment from "./ component/Increment";
-import Buttons from "./ component/Buttons";
+import Decrement from "./ components/Decrement";
+import Increment from "./ components/Increment";
+import Buttons from "./ components/Buttons";
 // import logo from "./logo.svg";
 // import './App.css';
 
