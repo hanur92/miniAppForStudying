@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-function Buttons() {
+const Buttons = (props) => {
   const [number2, count] = useState(0);
 
   return (
@@ -9,6 +9,6 @@ function Buttons() {
       <button onClick={() => count(number2 - 1)}>-</button>
     </div>
   );
-}
+};
 
 export default Buttons;

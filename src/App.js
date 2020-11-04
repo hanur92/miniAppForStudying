@@ -8,7 +8,7 @@ import Buttons2 from "./ components/Buttons2";
 // import logo from "./logo.svg";
 // import './App.css';
 
-function App() {
+const App = () => {
   // const number = useState(0);
   const [number, count] = useState(0);
   const [number2] = useState(0);
@@ -39,6 +39,6 @@ function App() {
       <Decrement /> */}
     </div>
   );
-}
+};
 
 export default App;
