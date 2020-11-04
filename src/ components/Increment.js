@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Increment() {
+const Increment = () => {
   const [number, count] = useState(0);
   return (
     <div>
@@ -8,6 +8,6 @@ function Increment() {
       <button onClick={() => count(number + 1)}>+</button>
     </div>
   );
-}
+};
 
 export default Increment;

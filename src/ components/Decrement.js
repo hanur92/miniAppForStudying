@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-function Decrement() {
+const Decrement = () => {
   const [number, count] = useState(0);
 
   return (
@@ -8,6 +8,6 @@ function Decrement() {
       <button onClick={() => count(number - 1)}>-</button>
     </div>
   );
-}
+};
 
 export default Decrement;
